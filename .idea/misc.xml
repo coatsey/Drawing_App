@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/background_drawing_view_layout.xml" value="0.242" />
         <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
       </map>
     </option>

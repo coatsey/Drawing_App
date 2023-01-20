@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/background_drawing_view_layout.xml" value="0.242" />
+        <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/icon_undo.xml" value="0.242" />
         <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/large.xml" value="0.242" />
         <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/medium.xml" value="0.242" />
         <entry key="..\:/Users/coats/Downloads/kotlin-coroutines-master/DrawingApp/app/src/main/res/drawable/pallet_normal.xml" value="0.242" />

@@ -2,6 +2,7 @@ package com.example.drawingapp
 
 import android.content.Context
 import android.graphics.*
+import android.os.Build.VERSION_CODES.P
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.MotionEvent
@@ -16,11 +17,20 @@ class DrawingView(context: Context, attrs: AttributeSet) : View(context, attrs) 
     private var mBrushSize: Float = 0.toFloat()
     private var color = Color.BLACK
     private var canvas: Canvas? = null
-    private var mPaths = ArrayList<CustomPath>()
+
+    private val mUndoPaths = ArrayList<CustomPath>()
+    private val mPaths = ArrayList<CustomPath>()
 
 
     init {
         setUpDrawing()
+    }
+
+    fun onClickUndo(){
+        if (mPaths.size > 0 ){
+            mUndoPaths.add(mPaths.removeAt(mPaths.size -1))
+            invalidate()
+        }
     }
 
     private fun setUpDrawing(){
